@@ -1,7 +1,3 @@
-# [44.Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
-        
-## Description
-        
 Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for &#39;?&#39; and &#39;*&#39;.
 
 

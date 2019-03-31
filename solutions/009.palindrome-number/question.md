@@ -1,7 +1,3 @@
-# [9.Palindrome Number](https://leetcode.com/problems/palindrome-number/)
-        
-## Description
-        
 Determine whether an integer is a palindrome. An integer&nbsp;is&nbsp;a&nbsp;palindrome when it&nbsp;reads the same backward as forward.
 
 Example 1:

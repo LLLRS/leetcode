@@ -1,7 +1,3 @@
-# [32.Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
-        
-## Description
-        
 Given a string containing just the characters &#39;(&#39; and &#39;)&#39;, find the length of the longest valid (well-formed) parentheses substring.
 
 Example 1:

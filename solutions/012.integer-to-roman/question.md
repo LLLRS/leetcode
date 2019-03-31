@@ -1,7 +1,3 @@
-# [12.Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
-        
-## Description
-        
 Roman numerals are represented by seven different symbols:&nbsp;I, V, X, L, C, D and M.
 
 

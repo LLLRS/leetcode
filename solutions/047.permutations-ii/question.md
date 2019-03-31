@@ -1,7 +1,3 @@
-# [47.Permutations II](https://leetcode.com/problems/permutations-ii/)
-        
-## Description
-        
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
 Example:

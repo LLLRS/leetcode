@@ -1,7 +1,3 @@
-# [53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-        
-## Description
-        
 Given an integer array nums, find the contiguous subarray&nbsp;(containing at least one number) which has the largest sum and return its sum.
 
 Example:

@@ -1,7 +1,3 @@
-# [20.Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-        
-## Description
-        
 Given a string containing just the characters &#39;(&#39;, &#39;)&#39;, &#39;{&#39;, &#39;}&#39;, &#39;[&#39; and &#39;]&#39;, determine if the input string is valid.
 
 An input string is valid if:

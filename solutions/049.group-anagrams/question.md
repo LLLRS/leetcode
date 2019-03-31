@@ -1,7 +1,3 @@
-# [49.Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-        
-## Description
-        
 Given an array of strings, group anagrams together.
 
 Example:

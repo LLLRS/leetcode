@@ -1,7 +1,3 @@
-# [10.Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-        
-## Description
-        
 Given an input string (s) and a pattern (p), implement regular expression matching with support for &#39;.&#39; and &#39;*&#39;.
 
 

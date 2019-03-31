@@ -1,7 +1,3 @@
-# [65.Valid Number](https://leetcode.com/problems/valid-number/)
-        
-## Description
-        
 Validate if a given string can be interpreted as&nbsp;a decimal number.
 
 Some examples:

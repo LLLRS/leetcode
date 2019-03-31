@@ -1,7 +1,3 @@
-# [50.Pow(x, n)](https://leetcode.com/problems/powx-n/)
-        
-## Description
-        
 Implement pow(x, n), which calculates&nbsp;x raised to the power n (xn).
 
 Example 1:

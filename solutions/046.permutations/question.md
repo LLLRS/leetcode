@@ -1,7 +1,3 @@
-# [46.Permutations](https://leetcode.com/problems/permutations/)
-        
-## Description
-        
 Given a collection of distinct integers, return all possible permutations.
 
 Example:
