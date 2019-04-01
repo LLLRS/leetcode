@@ -1,17 +1,17 @@
-Given an array of non-negative integers, you are initially positioned at the first index of the array.
+<p>Given an array of non-negative integers, you are initially positioned at the first index of the array.</p>
 
-Each element in the array represents your maximum jump length at that position.
+<p>Each element in the array represents your maximum jump length at that position.</p>
 
-Your goal is to reach the last index in the minimum number of jumps.
+<p>Your goal is to reach the last index in the minimum number of jumps.</p>
 
-Example:
+<p><strong>Example:</strong></p>
 
+<pre>
+<strong>Input:</strong> [2,3,1,1,4]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The minimum number of jumps to reach the last index is 2.
+    Jump 1 step from index 0 to 1, then 3 steps to the last index.</pre>
 
-Input: [2,3,1,1,4]
-Output: 2
-Explanation: The minimum number of jumps to reach the last index is 2.
-    Jump 1 step from index 0 to 1, then 3 steps to the last index.
+<p><strong>Note:</strong></p>
 
-Note:
-
-You can assume that you can always reach the last index.
+<p>You can assume that you can always reach the last index.</p>

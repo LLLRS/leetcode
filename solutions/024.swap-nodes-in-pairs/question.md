@@ -1,11 +1,11 @@
-Given a&nbsp;linked list, swap every two adjacent nodes and return its head.
+<p>Given a&nbsp;linked list, swap every two adjacent nodes and return its head.</p>
 
-You may not modify the values in the list&#39;s nodes, only nodes itself may be changed.
+<p>You may <strong>not</strong> modify the values in the list&#39;s nodes, only nodes itself may be changed.</p>
 
-&nbsp;
+<p>&nbsp;</p>
 
-Example:
+<p><strong>Example:</strong></p>
 
-
-Given 1-&gt;2-&gt;3-&gt;4, you should return the list as 2-&gt;1-&gt;4-&gt;3.
-
+<pre>
+Given <code>1-&gt;2-&gt;3-&gt;4</code>, you should return the list as <code>2-&gt;1-&gt;4-&gt;3</code>.
+</pre>

@@ -1,42 +1,43 @@
-Given a string S that only contains &quot;I&quot; (increase) or &quot;D&quot; (decrease), let N = S.length.
+<p>Given a string <code>S</code> that <strong>only</strong> contains &quot;I&quot; (increase) or &quot;D&quot; (decrease), let <code>N = S.length</code>.</p>
 
-Return any permutation A of [0, 1, ..., N] such that for all i = 0,&nbsp;..., N-1:
+<p>Return <strong>any</strong> permutation <code>A</code> of <code>[0, 1, ..., N]</code> such that for all <code>i = 0,&nbsp;..., N-1</code>:</p>
 
+<ul>
+	<li>If <code>S[i] == &quot;I&quot;</code>, then <code>A[i] &lt; A[i+1]</code></li>
+	<li>If <code>S[i] == &quot;D&quot;</code>, then <code>A[i] &gt; A[i+1]</code></li>
+</ul>
 
-	If S[i] == &quot;I&quot;, then A[i] &lt; A[i+1]
-	If S[i] == &quot;D&quot;, then A[i] &gt; A[i+1]
+<p>&nbsp;</p>
 
+<p><strong>Example 1:</strong></p>
 
-&nbsp;
+<pre>
+<strong>Input: </strong><span id="example-input-1-1">&quot;IDID&quot;</span>
+<strong>Output: </strong><span id="example-output-1">[0,4,1,3,2]</span>
+</pre>
 
-Example 1:
+<div>
+<p><strong>Example 2:</strong></p>
 
+<pre>
+<strong>Input: </strong><span id="example-input-2-1">&quot;III&quot;</span>
+<strong>Output: </strong><span id="example-output-2">[0,1,2,3]</span>
+</pre>
 
-Input: &quot;IDID&quot;
-Output: [0,4,1,3,2]
+<div>
+<p><strong>Example 3:</strong></p>
 
+<pre>
+<strong>Input: </strong><span id="example-input-3-1">&quot;DDI&quot;</span>
+<strong>Output: </strong><span id="example-output-3">[3,2,0,1]</span></pre>
+</div>
+</div>
 
+<p>&nbsp;</p>
 
-Example 2:
+<p><strong>Note:</strong></p>
 
-
-Input: &quot;III&quot;
-Output: [0,1,2,3]
-
-
-
-Example 3:
-
-
-Input: &quot;DDI&quot;
-Output: [3,2,0,1]
-
-
-
-&nbsp;
-
-Note:
-
-
-	1 &lt;= S.length &lt;= 10000
-	S only contains characters &quot;I&quot; or &quot;D&quot;.
+<ol>
+	<li><code>1 &lt;= S.length &lt;= 10000</code></li>
+	<li><code>S</code> only contains characters <code>&quot;I&quot;</code> or <code>&quot;D&quot;</code>.</li>
+</ol>

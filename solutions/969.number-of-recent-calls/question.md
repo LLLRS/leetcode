@@ -1,30 +1,31 @@
-Write a class RecentCounter to count recent requests.
+<p>Write a class <code>RecentCounter</code> to count recent requests.</p>
 
-It has only one method:&nbsp;ping(int t), where t represents some time in milliseconds.
+<p>It has only one method:&nbsp;<code>ping(int t)</code>, where t represents some time in milliseconds.</p>
 
-Return the number of pings that have been made from 3000 milliseconds ago until now.
+<p>Return the number of <code>ping</code>s that have been made from 3000 milliseconds ago until now.</p>
 
-Any ping with time in [t - 3000, t] will count, including the current ping.
+<p>Any ping with time in <code>[t - 3000, t]</code> will count, including the current ping.</p>
 
-It is guaranteed that every call to ping uses a strictly larger value of&nbsp;t than before.
+<p>It is guaranteed that every call to <code>ping</code> uses a strictly larger value of&nbsp;<code>t</code> than before.</p>
 
-&nbsp;
+<p>&nbsp;</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input: </strong>inputs = <span id="example-input-1-1">[&quot;RecentCounter&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;]</span>, inputs = <span id="example-input-1-2">[[],[1],[100],[3001],[3002]]</span>
+<strong>Output: </strong><span id="example-output-1">[null,1,2,3,3]</span></pre>
 
-Input: inputs = [&quot;RecentCounter&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;,&quot;ping&quot;], inputs = [[],[1],[100],[3001],[3002]]
-Output: [null,1,2,3,3]
+<p>&nbsp;</p>
 
-&nbsp;
+<p><strong>Note:</strong></p>
 
-Note:
+<ol>
+	<li>Each test case will have at most <code>10000</code> calls to <code>ping</code>.</li>
+	<li>Each test case will call&nbsp;<code>ping</code> with strictly increasing values of <code>t</code>.</li>
+	<li>Each call to ping will have <code>1 &lt;= t &lt;= 10^9</code>.</li>
+</ol>
 
-
-	Each test case will have at most 10000 calls to ping.
-	Each test case will call&nbsp;ping with strictly increasing values of t.
-	Each call to ping will have 1 &lt;= t &lt;= 10^9.
-
-
-
-&nbsp;
+<div>
+<p>&nbsp;</p>
+</div>

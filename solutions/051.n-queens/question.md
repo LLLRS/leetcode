@@ -1,16 +1,16 @@
-The n-queens puzzle is the problem of placing n queens on an n&times;n chessboard such that no two queens attack each other.
+<p>The <em>n</em>-queens puzzle is the problem of placing <em>n</em> queens on an <em>n</em>&times;<em>n</em> chessboard such that no two queens attack each other.</p>
 
+<p><img alt="" src="https://assets.leetcode.com/uploads/2018/10/12/8-queens.png" style="width: 258px; height: 276px;" /></p>
 
+<p>Given an integer <em>n</em>, return all distinct solutions to the <em>n</em>-queens puzzle.</p>
 
-Given an integer n, return all distinct solutions to the n-queens puzzle.
+<p>Each solution contains a distinct board configuration of the <em>n</em>-queens&#39; placement, where <code>&#39;Q&#39;</code> and <code>&#39;.&#39;</code> both indicate a queen and an empty space respectively.</p>
 
-Each solution contains a distinct board configuration of the n-queens&#39; placement, where &#39;Q&#39; and &#39;.&#39; both indicate a queen and an empty space respectively.
+<p><strong>Example:</strong></p>
 
-Example:
-
-
-Input: 4
-Output: [
+<pre>
+<strong>Input:</strong> 4
+<strong>Output:</strong> [
  [&quot;.Q..&quot;,  // Solution 1
   &quot;...Q&quot;,
   &quot;Q...&quot;,
@@ -21,5 +21,5 @@ Output: [
   &quot;...Q&quot;,
   &quot;.Q..&quot;]
 ]
-Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above.
-
+<strong>Explanation:</strong> There exist two distinct solutions to the 4-queens puzzle as shown above.
+</pre>

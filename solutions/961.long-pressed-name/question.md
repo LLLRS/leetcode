@@ -1,61 +1,62 @@
-Your friend is typing his name&nbsp;into a keyboard.&nbsp; Sometimes, when typing a character c, the key might get long pressed, and the character will be typed 1 or more times.
+<p>Your friend is typing his <code>name</code>&nbsp;into a keyboard.&nbsp; Sometimes, when typing a character <code>c</code>, the key might get <em>long pressed</em>, and the character will be typed 1 or more times.</p>
 
-You examine the typed&nbsp;characters of the keyboard.&nbsp; Return True if it is possible that it was your friends name, with some characters (possibly none) being long pressed.
+<p>You examine the <code>typed</code>&nbsp;characters of the keyboard.&nbsp; Return <code>True</code> if it is possible that it was your friends name, with some characters (possibly none) being long pressed.</p>
 
-&nbsp;
+<p>&nbsp;</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input: </strong>name = <span id="example-input-1-1">&quot;alex&quot;</span>, typed = <span id="example-input-1-2">&quot;aaleex&quot;</span>
+<strong>Output: </strong><span id="example-output-1">true</span>
+<strong>Explanation: </strong>'a' and 'e' in 'alex' were long pressed.
+</pre>
 
-Input: name = &quot;alex&quot;, typed = &quot;aaleex&quot;
-Output: true
-Explanation: 'a' and 'e' in 'alex' were long pressed.
+<div>
+<p><strong>Example 2:</strong></p>
 
+<pre>
+<strong>Input: </strong>name = <span id="example-input-2-1">&quot;saeed&quot;</span>, typed = <span id="example-input-2-2">&quot;ssaaedd&quot;</span>
+<strong>Output: </strong><span id="example-output-2">false</span>
+<strong>Explanation: </strong>'e' must have been pressed twice, but it wasn't in the typed output.
+</pre>
 
+<div>
+<p><strong>Example 3:</strong></p>
 
-Example 2:
+<pre>
+<strong>Input: </strong>name = <span id="example-input-3-1">&quot;leelee&quot;</span>, typed = <span id="example-input-3-2">&quot;lleeelee&quot;</span>
+<strong>Output: </strong><span id="example-output-3">true</span>
+</pre>
 
+<div>
+<p><strong>Example 4:</strong></p>
 
-Input: name = &quot;saeed&quot;, typed = &quot;ssaaedd&quot;
-Output: false
-Explanation: 'e' must have been pressed twice, but it wasn't in the typed output.
+<pre>
+<strong>Input: </strong>name = <span id="example-input-4-1">&quot;laiden&quot;</span>, typed = <span id="example-input-4-2">&quot;laiden&quot;</span>
+<strong>Output: </strong><span id="example-output-4">true</span>
+<strong>Explanation: </strong>It's not necessary to long press any character.
+</pre>
 
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
 
+<p><strong>Note:</strong></p>
 
-Example 3:
+<ol>
+	<li><code>name.length &lt;= 1000</code></li>
+	<li><code>typed.length &lt;= 1000</code></li>
+	<li>The characters of <code>name</code> and <code>typed</code> are lowercase letters.</li>
+</ol>
 
+<div>
+<p>&nbsp;</p>
 
-Input: name = &quot;leelee&quot;, typed = &quot;lleeelee&quot;
-Output: true
-
-
-
-Example 4:
-
-
-Input: name = &quot;laiden&quot;, typed = &quot;laiden&quot;
-Output: true
-Explanation: It's not necessary to long press any character.
-
-
-&nbsp;
-
-
-
-
-Note:
-
-
-	name.length &lt;= 1000
-	typed.length &lt;= 1000
-	The characters of name and typed are lowercase letters.
-
-
-
-&nbsp;
-
-
-
-&nbsp;
-
-
+<div>
+<div>
+<div>&nbsp;</div>
+</div>
+</div>
+</div>

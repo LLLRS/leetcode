@@ -1,24 +1,24 @@
-You&#39;re given strings J representing the types of stones that are jewels, and S representing the stones you have.&nbsp; Each character in S is a type of stone you have.&nbsp; You want to know how many of the stones you have are also jewels.
+<p>You&#39;re given strings <code>J</code> representing the types of stones that are jewels, and <code>S</code> representing the stones you have.&nbsp; Each character in <code>S</code> is a type of stone you have.&nbsp; You want to know how many of the stones you have are also jewels.</p>
 
-The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so &quot;a&quot; is considered a different type of stone from &quot;A&quot;.
+<p>The letters in <code>J</code> are guaranteed distinct, and all characters in <code>J</code> and <code>S</code> are letters. Letters are case sensitive, so <code>&quot;a&quot;</code> is considered a different type of stone from <code>&quot;A&quot;</code>.</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input:</strong> J = &quot;aA&quot;, S = &quot;aAAbbbb&quot;
+<strong>Output:</strong> 3
+</pre>
 
-Input: J = &quot;aA&quot;, S = &quot;aAAbbbb&quot;
-Output: 3
+<p><strong>Example 2:</strong></p>
 
+<pre>
+<strong>Input:</strong> J = &quot;z&quot;, S = &quot;ZZ&quot;
+<strong>Output:</strong> 0
+</pre>
 
-Example 2:
+<p><strong>Note:</strong></p>
 
-
-Input: J = &quot;z&quot;, S = &quot;ZZ&quot;
-Output: 0
-
-
-Note:
-
-
-	S and J will consist of letters and have length at most 50.
-	The characters in J are distinct.
-
+<ul>
+	<li><code>S</code> and <code>J</code> will consist of letters and have length at most 50.</li>
+	<li>The characters in <code>J</code> are distinct.</li>
+</ul>

@@ -1,33 +1,33 @@
-The string &quot;PAYPALISHIRING&quot; is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+<p>The string <code>&quot;PAYPALISHIRING&quot;</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</p>
 
-
+<pre>
 P   A   H   N
 A P L S I I G
 Y   I   R
+</pre>
 
+<p>And then read line by line: <code>&quot;PAHNAPLSIIGYIR&quot;</code></p>
 
-And then read line by line: &quot;PAHNAPLSIIGYIR&quot;
+<p>Write the code that will take a string and make this conversion given a number of rows:</p>
 
-Write the code that will take a string and make this conversion given a number of rows:
+<pre>
+string convert(string s, int numRows);</pre>
 
+<p><strong>Example 1:</strong></p>
 
-string convert(string s, int numRows);
+<pre>
+<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows = 3
+<strong>Output:</strong> &quot;PAHNAPLSIIGYIR&quot;
+</pre>
 
-Example 1:
+<p><strong>Example 2:</strong></p>
 
-
-Input: s = &quot;PAYPALISHIRING&quot;, numRows = 3
-Output: &quot;PAHNAPLSIIGYIR&quot;
-
-
-Example 2:
-
-
-Input: s = &quot;PAYPALISHIRING&quot;, numRows =&nbsp;4
-Output:&nbsp;&quot;PINALSIGYAHRPI&quot;
-Explanation:
+<pre>
+<strong>Input:</strong> s = &quot;PAYPALISHIRING&quot;, numRows =&nbsp;4
+<strong>Output:</strong>&nbsp;&quot;PINALSIGYAHRPI&quot;
+<strong>Explanation:</strong>
 
 P     I    N
 A   L S  I G
 Y A   H R
-P     I
+P     I</pre>

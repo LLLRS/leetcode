@@ -1,25 +1,25 @@
-Given two integers dividend and divisor, divide two integers without using multiplication, division and mod operator.
+<p>Given two integers <code>dividend</code> and <code>divisor</code>, divide two integers without using multiplication, division and mod operator.</p>
 
-Return the quotient after dividing dividend by divisor.
+<p>Return the quotient after dividing <code>dividend</code> by <code>divisor</code>.</p>
 
-The integer division should truncate toward zero.
+<p>The integer division should truncate toward zero.</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input:</strong> dividend = 10, divisor = 3
+<strong>Output:</strong> 3</pre>
 
-Input: dividend = 10, divisor = 3
-Output: 3
+<p><strong>Example 2:</strong></p>
 
-Example 2:
+<pre>
+<strong>Input:</strong> dividend = 7, divisor = -3
+<strong>Output:</strong> -2</pre>
 
+<p><strong>Note:</strong></p>
 
-Input: dividend = 7, divisor = -3
-Output: -2
-
-Note:
-
-
-	Both dividend and divisor&nbsp;will be&nbsp;32-bit&nbsp;signed integers.
-	The divisor will never be 0.
-	Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&minus;231, &nbsp;231 &minus; 1]. For the purpose of this problem, assume that your function returns 231 &minus; 1 when the division result&nbsp;overflows.
-
+<ul>
+	<li>Both dividend and divisor&nbsp;will be&nbsp;32-bit&nbsp;signed integers.</li>
+	<li>The divisor will never be 0.</li>
+	<li>Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [&minus;2<sup>31</sup>, &nbsp;2<sup>31</sup> &minus; 1]. For the purpose of this problem, assume that your function returns 2<sup>31</sup> &minus; 1 when the division result&nbsp;overflows.</li>
+</ul>

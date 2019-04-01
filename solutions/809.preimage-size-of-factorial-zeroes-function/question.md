@@ -1,21 +1,21 @@
-Let f(x) be the number of zeroes at the end of x!. (Recall that x! = 1 * 2 * 3 * ... * x, and by convention, 0! = 1.)
+<p>Let <code>f(x)</code> be the number of zeroes at the end of <code>x!</code>. (Recall that <code>x! = 1 * 2 * 3 * ... * x</code>, and by convention, <code>0! = 1</code>.)</p>
 
-For example, f(3) = 0 because 3! = 6 has no zeroes at the end, while f(11) = 2 because 11! = 39916800 has 2 zeroes at the end. Given K, find how many non-negative integers x have the property that f(x) = K.
+<p>For example, <code>f(3) = 0</code> because 3! = 6 has no zeroes at the end, while <code>f(11) = 2</code> because 11! = 39916800 has 2 zeroes at the end. Given <code>K</code>, find how many non-negative integers <code>x</code> have the property that <code>f(x) = K</code>.</p>
 
+<pre>
+<strong>Example 1:</strong>
+<strong>Input:</strong> K = 0
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> 0!, 1!, 2!, 3!, and 4! end with K = 0 zeroes.
 
-Example 1:
-Input: K = 0
-Output: 5
-Explanation: 0!, 1!, 2!, 3!, and 4! end with K = 0 zeroes.
+<strong>Example 2:</strong>
+<strong>Input:</strong> K = 5
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There is no x such that x! ends in K = 5 zeroes.
+</pre>
 
-Example 2:
-Input: K = 5
-Output: 0
-Explanation: There is no x such that x! ends in K = 5 zeroes.
+<p><strong>Note:</strong></p>
 
-
-Note:
-
-
-	K will be an integer in the range [0, 10^9].
-
+<ul>
+	<li><code>K</code> will be an integer in the range <code>[0, 10^9]</code>.</li>
+</ul>

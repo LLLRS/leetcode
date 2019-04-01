@@ -1,16 +1,16 @@
-Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+<p>Given a string <strong>s</strong>, find the longest palindromic substring in <strong>s</strong>. You may assume that the maximum length of <strong>s</strong> is 1000.</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input:</strong> &quot;babad&quot;
+<strong>Output:</strong> &quot;bab&quot;
+<strong>Note:</strong> &quot;aba&quot; is also a valid answer.
+</pre>
 
-Input: &quot;babad&quot;
-Output: &quot;bab&quot;
-Note: &quot;aba&quot; is also a valid answer.
+<p><strong>Example 2:</strong></p>
 
-
-Example 2:
-
-
-Input: &quot;cbbd&quot;
-Output: &quot;bb&quot;
-
+<pre>
+<strong>Input:</strong> &quot;cbbd&quot;
+<strong>Output:</strong> &quot;bb&quot;
+</pre>

@@ -1,35 +1,35 @@
-In a string&nbsp;S&nbsp;of lowercase letters, these letters form consecutive groups of the same character.
+<p>In a string&nbsp;<code>S</code>&nbsp;of lowercase letters, these letters form consecutive groups of the same character.</p>
 
-For example, a string like S = &quot;abbxxxxzyy&quot; has the groups &quot;a&quot;, &quot;bb&quot;, &quot;xxxx&quot;, &quot;z&quot; and&nbsp;&quot;yy&quot;.
+<p>For example, a string like <code>S = &quot;abbxxxxzyy&quot;</code> has the groups <code>&quot;a&quot;</code>, <code>&quot;bb&quot;</code>, <code>&quot;xxxx&quot;</code>, <code>&quot;z&quot;</code> and&nbsp;<code>&quot;yy&quot;</code>.</p>
 
-Call a group large if it has 3 or more characters.&nbsp; We would like the starting and ending positions of every large group.
+<p>Call a group <em>large</em> if it has 3 or more characters.&nbsp; We would like the starting and ending positions of every large group.</p>
 
-The final answer should be in lexicographic order.
+<p>The final answer should be in lexicographic order.</p>
 
-&nbsp;
+<p>&nbsp;</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input: </strong>&quot;abbxxxxzzy&quot;
+<strong>Output: </strong>[[3,6]]
+<strong>Explanation</strong>: <code>&quot;xxxx&quot; is the single </code>large group with starting  3 and ending positions 6.
+</pre>
 
-Input: &quot;abbxxxxzzy&quot;
-Output: [[3,6]]
-Explanation: &quot;xxxx&quot; is the single large group with starting  3 and ending positions 6.
+<p><strong>Example 2:</strong></p>
 
+<pre>
+<strong>Input: </strong>&quot;abc&quot;
+<strong>Output: </strong>[]
+<strong>Explanation</strong>: We have &quot;a&quot;,&quot;b&quot; and &quot;c&quot; but no large group.
+</pre>
 
-Example 2:
+<p><strong>Example 3:</strong></p>
 
+<pre>
+<strong>Input: </strong>&quot;abcdddeeeeaabbbcd&quot;
+<strong>Output: </strong>[[3,5],[6,9],[12,14]]</pre>
 
-Input: &quot;abc&quot;
-Output: []
-Explanation: We have &quot;a&quot;,&quot;b&quot; and &quot;c&quot; but no large group.
+<p>&nbsp;</p>
 
-
-Example 3:
-
-
-Input: &quot;abcdddeeeeaabbbcd&quot;
-Output: [[3,5],[6,9],[12,14]]
-
-&nbsp;
-
-Note:&nbsp;&nbsp;1 &lt;= S.length &lt;= 1000
+<p><strong>Note:&nbsp;</strong>&nbsp;<code>1 &lt;= S.length &lt;= 1000</code></p>

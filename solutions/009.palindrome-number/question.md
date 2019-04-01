@@ -1,28 +1,28 @@
-Determine whether an integer is a palindrome. An integer&nbsp;is&nbsp;a&nbsp;palindrome when it&nbsp;reads the same backward as forward.
+<p>Determine whether an integer is a palindrome. An integer&nbsp;is&nbsp;a&nbsp;palindrome when it&nbsp;reads the same backward as forward.</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input:</strong> 121
+<strong>Output:</strong> true
+</pre>
 
-Input: 121
-Output: true
+<p><strong>Example 2:</strong></p>
 
+<pre>
+<strong>Input:</strong> -121
+<strong>Output:</strong> false
+<strong>Explanation:</strong> From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+</pre>
 
-Example 2:
+<p><strong>Example 3:</strong></p>
 
+<pre>
+<strong>Input:</strong> 10
+<strong>Output:</strong> false
+<strong>Explanation:</strong> Reads 01 from right to left. Therefore it is not a palindrome.
+</pre>
 
-Input: -121
-Output: false
-Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+<p><strong>Follow up:</strong></p>
 
-
-Example 3:
-
-
-Input: 10
-Output: false
-Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
-
-
-Follow up:
-
-Coud you solve&nbsp;it without converting the integer to a string?
+<p>Coud you solve&nbsp;it without converting the integer to a string?</p>

@@ -1,40 +1,40 @@
-Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
+<p>Given a sorted array <em>nums</em>, remove the duplicates <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank"><strong>in-place</strong></a> such that each element appear only <em>once</em> and return the new length.</p>
 
-Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+<p>Do not allocate extra space for another array, you must do this by <strong>modifying the input array <a href="https://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in-place</a></strong> with O(1) extra memory.</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+Given <em>nums</em> = <strong>[1,1,2]</strong>,
 
-Given nums = [1,1,2],
+Your function should return length = <strong><code>2</code></strong>, with the first two elements of <em><code>nums</code></em> being <strong><code>1</code></strong> and <strong><code>2</code></strong> respectively.
 
-Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
+It doesn&#39;t matter what you leave beyond the returned length.</pre>
 
-It doesn&#39;t matter what you leave beyond the returned length.
+<p><strong>Example 2:</strong></p>
 
-Example 2:
+<pre>
+Given <em>nums</em> = <strong>[0,0,1,1,1,2,2,3,3,4]</strong>,
 
-
-Given nums = [0,0,1,1,1,2,2,3,3,4],
-
-Your function should return length = 5, with the first five elements of nums being modified to&nbsp;0, 1, 2, 3, and&nbsp;4 respectively.
+Your function should return length = <strong><code>5</code></strong>, with the first five elements of <em><code>nums</code></em> being modified to&nbsp;<strong><code>0</code></strong>, <strong><code>1</code></strong>, <strong><code>2</code></strong>, <strong><code>3</code></strong>, and&nbsp;<strong><code>4</code></strong> respectively.
 
 It doesn&#39;t matter what values are set beyond&nbsp;the returned length.
+</pre>
 
+<p><strong>Clarification:</strong></p>
 
-Clarification:
+<p>Confused why the returned value is an integer but your answer is an array?</p>
 
-Confused why the returned value is an integer but your answer is an array?
+<p>Note that the input array is passed in by <strong>reference</strong>, which means modification to the input array will be known to the caller as well.</p>
 
-Note that the input array is passed in by reference, which means modification to the input array will be known to the caller as well.
+<p>Internally you can think of this:</p>
 
-Internally you can think of this:
-
-
-// nums is passed in by reference. (i.e., without making a copy)
+<pre>
+// <strong>nums</strong> is passed in by reference. (i.e., without making a copy)
 int len = removeDuplicates(nums);
 
-// any modification to nums in your function would be known by the caller.
-// using the length returned by your function, it prints the first len elements.
+// any modification to <strong>nums</strong> in your function would be known by the caller.
+// using the length returned by your function, it prints the first <strong>len</strong> elements.
 for (int i = 0; i &lt; len; i++) {
 &nbsp; &nbsp; print(nums[i]);
-}
+}</pre>

@@ -1,22 +1,22 @@
-Write a function to find the longest common prefix string amongst an array of strings.
+<p>Write a function to find the longest common prefix string amongst an array of strings.</p>
 
-If there is no common prefix, return an empty string &quot;&quot;.
+<p>If there is no common prefix, return an empty string <code>&quot;&quot;</code>.</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input: </strong>[&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
+<strong>Output:</strong> &quot;fl&quot;
+</pre>
 
-Input: [&quot;flower&quot;,&quot;flow&quot;,&quot;flight&quot;]
-Output: &quot;fl&quot;
+<p><strong>Example 2:</strong></p>
 
+<pre>
+<strong>Input: </strong>[&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
+<strong>Output:</strong> &quot;&quot;
+<strong>Explanation:</strong> There is no common prefix among the input strings.
+</pre>
 
-Example 2:
+<p><strong>Note:</strong></p>
 
-
-Input: [&quot;dog&quot;,&quot;racecar&quot;,&quot;car&quot;]
-Output: &quot;&quot;
-Explanation: There is no common prefix among the input strings.
-
-
-Note:
-
-All given inputs are in lowercase letters a-z.
+<p>All given inputs are in lowercase letters <code>a-z</code>.</p>

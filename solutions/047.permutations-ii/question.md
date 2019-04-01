@@ -1,13 +1,13 @@
-Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+<p>Given a collection of numbers that might contain duplicates, return all possible unique permutations.</p>
 
-Example:
+<p><strong>Example:</strong></p>
 
-
-Input: [1,1,2]
-Output:
+<pre>
+<strong>Input:</strong> [1,1,2]
+<strong>Output:</strong>
 [
   [1,1,2],
   [1,2,1],
   [2,1,1]
 ]
-
+</pre>

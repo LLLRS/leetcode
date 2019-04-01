@@ -1,20 +1,20 @@
-Determine if a&nbsp;9x9 Sudoku board&nbsp;is valid.&nbsp;Only the filled cells need to be validated&nbsp;according to the following rules:
+<p>Determine if a&nbsp;9x9 Sudoku board&nbsp;is valid.&nbsp;Only the filled cells need to be validated&nbsp;<strong>according to the following rules</strong>:</p>
 
+<ol>
+	<li>Each row&nbsp;must contain the&nbsp;digits&nbsp;<code>1-9</code> without repetition.</li>
+	<li>Each column must contain the digits&nbsp;<code>1-9</code>&nbsp;without repetition.</li>
+	<li>Each of the 9 <code>3x3</code> sub-boxes of the grid must contain the digits&nbsp;<code>1-9</code>&nbsp;without repetition.</li>
+</ol>
 
-	Each row&nbsp;must contain the&nbsp;digits&nbsp;1-9 without repetition.
-	Each column must contain the digits&nbsp;1-9&nbsp;without repetition.
-	Each of the 9 3x3 sub-boxes of the grid must contain the digits&nbsp;1-9&nbsp;without repetition.
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" style="height:250px; width:250px" /><br />
+<small>A partially filled sudoku which is valid.</small></p>
 
+<p>The Sudoku board could be partially filled, where empty cells are filled with the character <code>&#39;.&#39;</code>.</p>
 
+<p><strong>Example 1:</strong></p>
 
-A partially filled sudoku which is valid.
-
-The Sudoku board could be partially filled, where empty cells are filled with the character &#39;.&#39;.
-
-Example 1:
-
-
-Input:
+<pre>
+<strong>Input:</strong>
 [
   [&quot;5&quot;,&quot;3&quot;,&quot;.&quot;,&quot;.&quot;,&quot;7&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;],
   [&quot;6&quot;,&quot;.&quot;,&quot;.&quot;,&quot;1&quot;,&quot;9&quot;,&quot;5&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;],
@@ -26,13 +26,13 @@ Input:
   [&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;4&quot;,&quot;1&quot;,&quot;9&quot;,&quot;.&quot;,&quot;.&quot;,&quot;5&quot;],
   [&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;8&quot;,&quot;.&quot;,&quot;.&quot;,&quot;7&quot;,&quot;9&quot;]
 ]
-Output: true
+<strong>Output:</strong> true
+</pre>
 
+<p><strong>Example 2:</strong></p>
 
-Example 2:
-
-
-Input:
+<pre>
+<strong>Input:</strong>
 [
 &nbsp; [&quot;8&quot;,&quot;3&quot;,&quot;.&quot;,&quot;.&quot;,&quot;7&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;],
 &nbsp; [&quot;6&quot;,&quot;.&quot;,&quot;.&quot;,&quot;1&quot;,&quot;9&quot;,&quot;5&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;],
@@ -44,16 +44,16 @@ Input:
 &nbsp; [&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;4&quot;,&quot;1&quot;,&quot;9&quot;,&quot;.&quot;,&quot;.&quot;,&quot;5&quot;],
 &nbsp; [&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;8&quot;,&quot;.&quot;,&quot;.&quot;,&quot;7&quot;,&quot;9&quot;]
 ]
-Output: false
-Explanation: Same as Example 1, except with the 5 in the top left corner being 
-    modified to 8. Since there are two 8&#39;s in the top left 3x3 sub-box, it is invalid.
+<strong>Output:</strong> false
+<strong>Explanation:</strong> Same as Example 1, except with the <strong>5</strong> in the top left corner being 
+    modified to <strong>8</strong>. Since there are two 8&#39;s in the top left 3x3 sub-box, it is invalid.
+</pre>
 
+<p><strong>Note:</strong></p>
 
-Note:
-
-
-	A Sudoku board (partially filled) could be valid but is not necessarily solvable.
-	Only the filled cells need to be validated according to the mentioned&nbsp;rules.
-	The given board&nbsp;contain only digits 1-9 and the character &#39;.&#39;.
-	The given board size is always 9x9.
-
+<ul>
+	<li>A Sudoku board (partially filled) could be valid but is not necessarily solvable.</li>
+	<li>Only the filled cells need to be validated according to the mentioned&nbsp;rules.</li>
+	<li>The given board&nbsp;contain only digits <code>1-9</code> and the character <code>&#39;.&#39;</code>.</li>
+	<li>The given board size is always <code>9x9</code>.</li>
+</ul>

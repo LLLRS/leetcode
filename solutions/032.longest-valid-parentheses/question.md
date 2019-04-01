@@ -1,17 +1,17 @@
-Given a string containing just the characters &#39;(&#39; and &#39;)&#39;, find the length of the longest valid (well-formed) parentheses substring.
+<p>Given a string containing just the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>, find the length of the longest valid (well-formed) parentheses substring.</p>
 
-Example 1:
+<p><strong>Example 1:</strong></p>
 
+<pre>
+<strong>Input:</strong> &quot;(()&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The longest valid parentheses substring is <code>&quot;()&quot;</code>
+</pre>
 
-Input: &quot;(()&quot;
-Output: 2
-Explanation: The longest valid parentheses substring is &quot;()&quot;
+<p><strong>Example 2:</strong></p>
 
-
-Example 2:
-
-
-Input: &quot;)()())&quot;
-Output: 4
-Explanation: The longest valid parentheses substring is &quot;()()&quot;
-
+<pre>
+<strong>Input:</strong> &quot;<code>)()())</code>&quot;
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The longest valid parentheses substring is <code>&quot;()()&quot;</code>
+</pre>

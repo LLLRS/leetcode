@@ -1,11 +1,11 @@
+<p>
+Given <i>n</i> pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+</p>
 
-Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
-
-
-
-For example, given n = 3, a solution set is:
-
-
+<p>
+For example, given <i>n</i> = 3, a solution set is:
+</p>
+<pre>
 [
   "((()))",
   "(()())",
@@ -13,3 +13,4 @@ For example, given n = 3, a solution set is:
   "()(())",
   "()()()"
 ]
+</pre>

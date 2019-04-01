@@ -1,12 +1,12 @@
-Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
+<p>Given an array <code>nums</code> of <em>n</em> integers and an integer <code>target</code>, are there elements <em>a</em>, <em>b</em>, <em>c</em>, and <em>d</em> in <code>nums</code> such that <em>a</em> + <em>b</em> + <em>c</em> + <em>d</em> = <code>target</code>? Find all unique quadruplets in the array which gives the sum of <code>target</code>.</p>
 
-Note:
+<p><strong>Note:</strong></p>
 
-The solution set must not contain duplicate quadruplets.
+<p>The solution set must not contain duplicate quadruplets.</p>
 
-Example:
+<p><strong>Example:</strong></p>
 
-
+<pre>
 Given array nums = [1, 0, -1, 0, -2, 2], and target = 0.
 
 A solution set is:
@@ -15,4 +15,4 @@ A solution set is:
   [-2, -1, 1, 2],
   [-2,  0, 0, 2]
 ]
-
+</pre>

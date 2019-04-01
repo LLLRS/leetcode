@@ -1,32 +1,32 @@
-The count-and-say sequence is the sequence of integers with the first five terms as following:
+<p>The count-and-say sequence is the sequence of integers with the first five terms as following:</p>
 
-
+<pre>
 1.     1
 2.     11
 3.     21
 4.     1211
 5.     111221
+</pre>
 
+<p><code>1</code> is read off as <code>&quot;one 1&quot;</code> or <code>11</code>.<br />
+<code>11</code> is read off as <code>&quot;two 1s&quot;</code> or <code>21</code>.<br />
+<code>21</code> is read off as <code>&quot;one 2</code>, then <code>one 1&quot;</code> or <code>1211</code>.</p>
 
-1 is read off as &quot;one 1&quot; or 11.
-11 is read off as &quot;two 1s&quot; or 21.
-21 is read off as &quot;one 2, then one 1&quot; or 1211.
+<p>Given an integer <i>n</i>&nbsp;where 1 &le; <em>n</em> &le; 30, generate the <i>n</i><sup>th</sup> term of the count-and-say sequence.</p>
 
-Given an integer n&nbsp;where 1 &le; n &le; 30, generate the nth term of the count-and-say sequence.
+<p>Note: Each term of the sequence of integers will be represented as a string.</p>
 
-Note: Each term of the sequence of integers will be represented as a string.
+<p>&nbsp;</p>
 
-&nbsp;
+<p><b>Example 1:</b></p>
 
-Example 1:
+<pre>
+<b>Input:</b> 1
+<b>Output:</b> &quot;1&quot;
+</pre>
 
+<p><b>Example 2:</b></p>
 
-Input: 1
-Output: &quot;1&quot;
-
-
-Example 2:
-
-
-Input: 4
-Output: &quot;1211&quot;
+<pre>
+<b>Input:</b> 4
+<b>Output:</b> &quot;1211&quot;</pre>
