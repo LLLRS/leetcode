@@ -1,15 +1,15 @@
 <p align="center"><img width="300" src="https://raw.githubusercontent.com/Ma63d/leetcode-spider/master/img/site-logo.png"></p>
 <p align="center">
     <img src="https://img.shields.io/badge/Hard-35-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Medium-190-blue.svg?style=flat-square" alt="">
-    <img src="https://img.shields.io/badge/Easy-128-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Medium-195-blue.svg?style=flat-square" alt="">
+    <img src="https://img.shields.io/badge/Easy-130-blue.svg?style=flat-square" alt="">
 </p>
 <h3 align="center">My leetcode solutions</h3>
 
 <p align="center">
     <b>Language: java</b>
     <br>
-    <b>Last updated: 2019-03-31</b>
+    <b>Last updated: 2019-04-06</b>
     <br><br>
 </p>
 <!--请保留下面这行信息，让更多用户了解到这个小爬虫，衷心感谢您的支持-->
@@ -252,6 +252,7 @@
 |380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [java](.&#x2F;solutions&#x2F;380.insert-delete-getrandom-o1&#x2F;insert-delete-getrandom-o1.java)|Medium|42.23%||
 |381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)| [java](.&#x2F;solutions&#x2F;381.insert-delete-getrandom-o1-duplicates-allowed&#x2F;insert-delete-getrandom-o1-duplicates-allowed.java)|Hard|31.61%||
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array/)| [java](.&#x2F;solutions&#x2F;384.shuffle-an-array&#x2F;shuffle-an-array.java)|Medium|49.71%||
+|386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers/)| [java](.&#x2F;solutions&#x2F;386.lexicographical-numbers&#x2F;lexicographical-numbers.java)|Medium|45.24%||
 |387|[first-unique-character-in-a-string](https://leetcode.com/problems/first-unique-character-in-a-string/)| [java](.&#x2F;solutions&#x2F;387.first-unique-character-in-a-string&#x2F;first-unique-character-in-a-string.java)|Easy|49.51%||
 |388|[longest-absolute-file-path](https://leetcode.com/problems/longest-absolute-file-path/)| [java](.&#x2F;solutions&#x2F;388.longest-absolute-file-path&#x2F;longest-absolute-file-path.java)|Medium|38.93%||
 |389|[find-the-difference](https://leetcode.com/problems/find-the-difference/)| [java](.&#x2F;solutions&#x2F;389.find-the-difference&#x2F;find-the-difference.java)|Easy|52.82%||
@@ -362,12 +363,18 @@
 |900|[reordered-power-of-2](https://leetcode.com/problems/reordered-power-of-2/)||Medium|50.31%||
 |905|[length-of-longest-fibonacci-subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)||Medium|45.89%||
 |908|[middle-of-the-linked-list](https://leetcode.com/problems/middle-of-the-linked-list/)||Easy|63.51%||
+|909|[stone-game](https://leetcode.com/problems/stone-game/)| [java](.&#x2F;solutions&#x2F;909.stone-game&#x2F;stone-game.java)|Medium|60.83%||
 |932|[monotonic-array](https://leetcode.com/problems/monotonic-array/)||Easy|54.79%||
 |951|[partition-array-into-disjoint-intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals/)||Medium|42.44%||
 |961|[long-pressed-name](https://leetcode.com/problems/long-pressed-name/)||Easy|44.22%||
 |967|[minimum-falling-path-sum](https://leetcode.com/problems/minimum-falling-path-sum/)||Medium|58.03%||
 |969|[number-of-recent-calls](https://leetcode.com/problems/number-of-recent-calls/)||Easy|69.15%||
+|975|[range-sum-of-bst](https://leetcode.com/problems/range-sum-of-bst/)| [java](.&#x2F;solutions&#x2F;975.range-sum-of-bst&#x2F;range-sum-of-bst.java)|Medium|80.37%||
 |979|[di-string-match](https://leetcode.com/problems/di-string-match/)||Easy|70.18%||
+|981|[delete-columns-to-make-sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)| [java](.&#x2F;solutions&#x2F;981.delete-columns-to-make-sorted&#x2F;delete-columns-to-make-sorted.java)|Easy|69.42%||
 |985|[bag-of-tokens](https://leetcode.com/problems/bag-of-tokens/)||Medium|38.99%||
+|992|[delete-columns-to-make-sorted-ii](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/)| [java](.&#x2F;solutions&#x2F;992.delete-columns-to-make-sorted-ii&#x2F;delete-columns-to-make-sorted-ii.java)|Medium|31.01%||
+|994|[prison-cells-after-n-days](https://leetcode.com/problems/prison-cells-after-n-days/)| [java](.&#x2F;solutions&#x2F;994.prison-cells-after-n-days&#x2F;prison-cells-after-n-days.java)|Medium|37.77%||
 |1023|[time-based-key-value-store](https://leetcode.com/problems/time-based-key-value-store/)||Medium|49.70%||
+|1054|[complement-of-base-10-integer](https://leetcode.com/problems/complement-of-base-10-integer/)| [java](.&#x2F;solutions&#x2F;1054.complement-of-base-10-integer&#x2F;complement-of-base-10-integer.java)|Easy|58.27%||
 
